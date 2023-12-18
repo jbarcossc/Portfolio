@@ -4,10 +4,10 @@ import Project from './Project';
 
 class Projects extends Component {
     projects_info = {
-        0: { id: "project-survey", image: "surveyFormImage", href:"https://mattcoder3.github.io/survey-form/", title: "Survey Form"},
-        1: { id: "project-tribute", image: "tributePageImage", href:"https://mattcoder3.github.io/tribute-page/", title: "Tribute Page"},
-        2: { id: "project-documentation", image: "documentationPageImage", href:"https://mattcoder3.github.io/technical-documentation-page/", title: "Documentation Page"},
-        3: { id: "project-landing", image: "landingPageImage", href:"https://mattcoder3.github.io/landing-page/", title: "Landing Page"}
+        0: { id: "project-survey", image: "survey-form.png", href:"https://mattcoder3.github.io/survey-form/", title: "Survey Form"},
+        1: { id: "project-tribute", image: "tribute-page.png", href:"https://mattcoder3.github.io/tribute-page/", title: "Tribute Page"},
+        2: { id: "project-documentation", image: "documentation-page.png", href:"https://mattcoder3.github.io/technical-documentation-page/", title: "Documentation Page"},
+        3: { id: "project-landing", image: "landing-page.png", href:"https://mattcoder3.github.io/landing-page/", title: "Landing Page"}
     };
 
     render(){
