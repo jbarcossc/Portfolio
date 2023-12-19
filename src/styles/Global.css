@@ -3,9 +3,13 @@
 
 :root {
   --background: #141414;
-  --secondary: #EEC643;
+  --secondary: #8edfda;
   --font: #EEF0F2;
   --terciary: #252525;
+}
+
+html {
+  font-size: 20px;
 }
 
 * {
@@ -26,6 +30,7 @@ a {
 
 h1 {
   font-size: 3em;
+  text-align: center;
 }
 
 h3 {
