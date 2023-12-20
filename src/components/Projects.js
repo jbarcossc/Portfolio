@@ -19,7 +19,7 @@ class Projects extends Component {
                     ))}
                 </div>
                 <div id="profile-link-container">
-                    <a id="profile-link" target="_blank" rel="noreferrer" href="https://github.com/mattcoder3">Show all</a>
+                    <a id="profile-link" target="_blank" rel="noreferrer" href="https://github.com/jbarcossc">Show all</a>
                 </div>
             </section>
         )

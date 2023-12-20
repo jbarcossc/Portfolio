@@ -65,6 +65,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  pointer-events: none;
 }
 
 .project-tile:hover #project-stack {
