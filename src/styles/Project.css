@@ -58,18 +58,18 @@
 #project-stack {
   color: var(--secondary);
   width: 100%;
-  height: 100%;
-  margin-bottom: 10;
   position: absolute;
+  top: 0%;
   z-index: 0;
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   pointer-events: none;
+  gap: 0.5em;
 }
 
 .project-tile:hover #project-stack {
-  transform: translateY(-60%);
+  transform: translateY(calc(-100% - 1em));
 }
 
 .tech-icon {

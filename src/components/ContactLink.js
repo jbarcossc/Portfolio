@@ -12,7 +12,7 @@ class ContactLink extends Component {
     render(){
         return (
             <a className="contact-link" href={this.props.href} target='_blank' rel="noreferrer">
-                <FontAwesomeIcon icon={['fab', this.props.icon]} className="icon" />
+                <FontAwesomeIcon icon={['fab', this.props.icon]} className="icon" key={this.props.icon}/>
                 <p>{this.props.title}</p>
             </a>
         )
