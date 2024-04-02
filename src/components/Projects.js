@@ -4,10 +4,10 @@ import Project from './Project';
 
 class Projects extends Component {
     projects_info = {
-        0: { id: "project-survey", image: "survey-form.png", href:"https://mattcoder3.github.io/survey-form/", title: "Survey Form", stack: ["html5","css3-alt","git-alt"]},
+        0: { id: "project-goles-de-river", image: "goles-de-river.png", href:"https://www.upwork.com/freelancers/~01f73c965c867f046d?p=1713013410095878144", title: "Goles de River", stack: ["js","git-alt"]},
         1: { id: "project-game-of-life", image: "game-of-life.png", href:"https://jbarcossc.github.io/gameOfLife/", title: "Game of Life", stack: ["html5","css3-alt","js","git-alt"]},
-        2: { id: "project-documentation", image: "documentation-page.png", href:"https://mattcoder3.github.io/technical-documentation-page/", title: "Documentation Page", stack: ["html5","css3-alt","git-alt"]},
-        3: { id: "project-landing", image: "landing-page.png", href:"https://mattcoder3.github.io/landing-page/", title: "Landing Page", stack: ["html5","css3-alt","git-alt"]}
+        2: { id: "project-rappi-item-finder", image: "rappi-item-finder.png", href:"https://www.youtube.com/watch?v=vsTe8nuCoIY&ab_channel=MattCoder", title: "Rappi Item Finder", stack: ["python","git-alt"]},
+        3: { id: "project-flappy-racoon", image: "flappy-racoon.png", href:"https://www.youtube.com/watch?v=E-_UWV7NUFw&t=1s&ab_channel=MattCoder", title: "Flappy Racoon", stack: ["html5","css3-alt","git-alt"]}
     };
 
     render(){
