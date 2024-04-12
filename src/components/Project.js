@@ -16,12 +16,13 @@ class Project extends Component {
 				<div id="project-stack">
 					{Object.values(this.props.stack).map((element, index) => (
 						<svg
-							key={`${element.iconName}-${element.id}-${index}`}
+							key={`${element}-${index}`}
 							role="img"
+							className="tech-icon"
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg">
-							<title>{element.iconName}</title>
-							<path d={ICONS[element.iconName]} />
+							<title>{element}</title>
+							<path d={ICONS[element]} />
 						</svg>
 					))}
 				</div>

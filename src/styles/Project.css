@@ -1,77 +1,78 @@
 .project-tile {
-  overflow: hidden;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  outline: none;
-  overflow: visible;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	outline: none;
+	overflow: visible;
 }
 
 .project-image {
-  height: 80%;
-  overflow: hidden;
-  z-index: 10;
+	height: 80%;
+	overflow: hidden;
+	z-index: 10;
 }
 
 .project-info {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
 }
 
 .project-image img {
-  max-height: 150%;
-  object-fit: cover;
+	max-height: 150%;
+	object-fit: cover;
 }
 
 .project-info .project-link {
-  height: 20%;
-  width: 100%;
-  background-color: var(--terciary);
-  color: var(--font);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	height: 20%;
+	width: 100%;
+	background-color: var(--terciary);
+	color: var(--font);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .project-info:hover .project-link-detail {
-  color: var(--secondary);
+	color: var(--secondary);
 }
 
 .project-info:hover {
-  outline: 3px solid white;
-  box-shadow: 0 0 10px 5px var(--secondary);
+	outline: 3px solid white;
+	box-shadow: 0 0 10px 5px var(--secondary);
 }
 
 .project-link-detail {
-  padding: 0.3em;
-  font-weight: 400;
-  color: var(--terciary);
+	padding: 0.3em;
+	font-weight: 400;
+	color: var(--terciary);
 }
 
 #project-stack {
-  color: var(--secondary);
-  width: 100%;
-  position: absolute;
-  top: 0%;
-  z-index: 0;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  pointer-events: none;
-  gap: 0.5em;
+	color: var(--secondary);
+	width: 100%;
+	position: absolute;
+	top: 0%;
+	z-index: 0;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	pointer-events: none;
+	gap: 0.5em;
 }
 
 .project-tile:hover #project-stack {
-  transform: translateY(calc(-100% - 1em));
+	transform: translateY(calc(-100% - 1em));
 }
 
 .tech-icon {
-  font-size: 3em;
+	width: 3rem;
+	fill: var(--secondary);
 }
